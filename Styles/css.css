@@ -325,6 +325,9 @@ ul{
 }
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 767px) {
+	body{
+        overflow-x: hidden;
+    }
     .main-title-2{
         font-size: 2.8em !important;
     }
@@ -419,6 +422,9 @@ ul{
     }
     /* responsive according */
 @media screen and (min-width: 1024px){
+	body{
+        overflow-x: hidden;
+    }
     .accordion-body{
         margin-left: -275px;
     }
